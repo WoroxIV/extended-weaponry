@@ -1,0 +1,14 @@
+{
+  "entries": [
+    "extended_weaponry:entities_warden",
+    "extended_weaponry:chests_ancient_city",
+    "extended_weaponry:chests_trial_chambers_corridor",
+    "extended_weaponry:chests_underwater_ruin_big",
+    "extended_weaponry:chests_village_village_weaponsmith",
+    "extended_weaponry:chests_village_village_armorer",
+    "extended_weaponry:chests_village_village_toolsmith",
+    "extended_weaponry:chests_pillager_outpost",
+    "extended_weaponry:chests_shipwreck_treasure"
+  ],
+  "replace": false
+}

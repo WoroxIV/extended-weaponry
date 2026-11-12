@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "deeperdarker"
+      }
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "extended_weaponry:warden_heart"
+  },
+  "base": {
+    "item": "better_weaponry:netherite_crossbow"
+  },
+  "result": {
+    "count": 1,
+    "id": "extended_weaponry:warden_crossbow"
+  },
+  "template": {
+    "item": "extended_weaponry:warden_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "c:gems/amethyst"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "PMP",
+    "PPP",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "extended_weaponry:amethyst_shield"
+  }
+}

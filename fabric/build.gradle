@@ -1,0 +1,95 @@
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+
+plugins {
+    id 'multiloader-loader'
+    id 'net.fabricmc.fabric-loom-remap'
+    id 'me.modmuss50.mod-publish-plugin'
+}
+
+apply from: rootProject.file('gradle/publish.gradle')
+
+ext.gameTestAnnotations = ''
+ext.gameTestArena = 'extended_weaponry:empty'
+
+def betterWeaponryJar = rootProject.ext.betterWeaponryJar('fabric')
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    mappings loom.layered {
+        officialMojangMappings()
+        parchment("org.parchmentmc.data:parchment-${parchment_minecraft}:${parchment_version}@zip")
+    }
+    modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+
+    // Better Weaponry : compilé contre son jar Fabric, et chargé dans les lancements de développement.
+    modCompileOnly files(betterWeaponryJar)
+    modLocalRuntime files(betterWeaponryJar)
+}
+
+loom {
+    mixin {
+        defaultRefmapName = "${mod_id}.refmap.json"
+    }
+    runs {
+        client {
+            client()
+            configName = 'Fabric Client'
+            ideConfigGenerated(true)
+            runDir '../run/fabric-client'
+        }
+        server {
+            server()
+            configName = 'Fabric Server'
+            ideConfigGenerated(true)
+            runDir '../run/fabric-server'
+        }
+        gameTestServer {
+            server()
+            configName = 'Fabric GameTest'
+            vmArg '-Dfabric-api.gametest'
+            runDir '../run/fabric-gametest'
+        }
+    }
+}
+
+// Les recettes et les modificateurs de butin sont générés pour NeoForge : on traduit leurs conditions pour Fabric au moment de construire le jar.
+def fabricCondition
+fabricCondition = { Map condition ->
+    switch (condition.type) {
+        case 'neoforge:mod_loaded':
+            return [condition: 'fabric:all_mods_loaded', values: [condition.modid]]
+        case 'neoforge:tag_empty':
+            return [condition: 'fabric:not', value: [condition: 'fabric:tags_populated', registry: 'minecraft:item', values: [condition.tag]]]
+        case 'neoforge:not':
+            return [condition: 'fabric:not', value: fabricCondition(condition.value)]
+        case 'neoforge:or':
+            return [condition: 'fabric:or', values: condition.values.collect { fabricCondition(it) }]
+        case 'neoforge:false':
+            return [condition: 'fabric:not', value: [condition: 'fabric:true']]
+        default:
+            throw new GradleException("Unknown recipe condition: ${condition.type}")
+    }
+}
+
+tasks.named('processResources', ProcessResources) {
+    // Les modificateurs de butin de NeoForge n'ont pas de sens sur Fabric : le butin y est ajouté par le code.
+    exclude 'data/neoforge/**', 'data/extended_weaponry/loot_modifiers/**'
+    doLast {
+        def data = new File(destinationDir, 'data')
+        data.eachFileRecurse { file ->
+            if (!file.isFile() || !file.name.endsWith('.json') || !file.text.contains('neoforge:conditions')) return
+            def json = new JsonSlurper().parse(file)
+            def converted = ['fabric:load_conditions': json.remove('neoforge:conditions').collect { fabricCondition(it) }] + json
+            file.text = JsonOutput.toJson(converted)
+        }
+    }
+}
+
+// Le point d'entrée des tests ne doit pas rester dans le jar publié : leur classe n'y est pas.
+tasks.named('jar', Jar) {
+    filesMatching('fabric.mod.json') {
+        filter { String line -> line.contains('fabric-gametest') ? null : line }
+    }
+}

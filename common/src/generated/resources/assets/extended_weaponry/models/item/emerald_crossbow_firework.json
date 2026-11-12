@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "extended_weaponry:item/emerald_crossbow_firework"
+  }
+}

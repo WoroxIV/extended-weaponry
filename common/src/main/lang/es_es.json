@@ -1,0 +1,57 @@
+{
+  "_info": "Translation source for Extended Weaponry. Item names are built with 'pattern': {type} and {material} are replaced by the names below ({type|lower} = first letter in lower case). The 17 Better Weaponry weapon types use the same names as in Better Weaponry. Other texts are in 'strings', with exactly the same keys as en_us.",
+  "names": {
+    "pattern": "{type} {material}",
+    "types": {
+      "broadsword": "Espada ancha",
+      "spear": "Lanza",
+      "dagger": "Daga",
+      "scythe": "Guadaña",
+      "rapier": "Estoque",
+      "sickle": "Hoz",
+      "katana": "Katana",
+      "battleaxe": "Hacha de guerra",
+      "glaive": "Guja",
+      "hammer": "Martillo",
+      "claymore": "Claymore",
+      "chakram": "Chakram",
+      "sai": "Sai",
+      "shield": "Escudo",
+      "bow": "Arco",
+      "crossbow": "Ballesta",
+      "shuriken": "Shuriken",
+      "sword": "Espada",
+      "shovel": "Pala",
+      "pickaxe": "Pico",
+      "axe": "Hacha",
+      "hoe": "Azada",
+      "helmet": "Casco",
+      "chestplate": "Peto",
+      "leggings": "Grebas",
+      "boots": "Botas"
+    },
+    "materials": {
+      "copper": "de cobre",
+      "emerald": "de esmeralda",
+      "amethyst": "de amatista",
+      "warden": "del Warden"
+    },
+    "overrides": {}
+  },
+  "strings": {
+    "itemGroup.extended_weaponry.gear": "Extended Weaponry",
+    "item.extended_weaponry.warden_heart": "Corazón del Warden",
+    "item.extended_weaponry.warden_upgrade_smithing_template": "Plantilla de herrería",
+    "item.extended_weaponry.smithing_template.warden_upgrade.title": "Mejora del Warden",
+    "item.extended_weaponry.smithing_template.warden_upgrade.applies_to": "Equipamiento de netherita",
+    "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Corazón del Warden",
+    "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Coloca una armadura, arma o herramienta de netherita",
+    "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Coloca un corazón del Warden",
+    "tooltip.extended_weaponry.fragile": "Frágil: Irrompibilidad y Reparación no tienen efecto",
+    "tooltip.extended_weaponry.resonance": "Resonancia: los golpes alcanzan también a los enemigos cercanos",
+    "tooltip.extended_weaponry.sonic": "Golpe sónico: atraviesa la armadura, golpes sin vibración",
+    "tooltip.extended_weaponry.warden_heart": "Lo suelta un Warden cuando los jugadores le infligieron la mayor parte del daño",
+    "death.attack.extended_weaponry.resonance": "%1$s se hizo añicos por la resonancia",
+    "death.attack.extended_weaponry.resonance.player": "%1$s se hizo añicos por la resonancia del arma de %2$s"
+  }
+}

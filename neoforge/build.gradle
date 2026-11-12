@@ -1,0 +1,67 @@
+plugins {
+    id 'multiloader-loader'
+    id 'net.neoforged.moddev'
+    id 'me.modmuss50.mod-publish-plugin'
+}
+
+apply from: rootProject.file('gradle/publish.gradle')
+
+def betterWeaponryJar = rootProject.ext.betterWeaponryJar('neoforge')
+
+neoForge {
+    version = neo_version
+    parchment {
+        minecraftVersion = parchment_minecraft
+        mappingsVersion = parchment_version
+    }
+
+    runs {
+        configureEach {
+            gameDirectory = rootProject.file("run/${name}")
+            systemProperty 'forge.logging.console.level', 'debug'
+            systemProperty 'neoforge.enabledGameTestNamespaces', mod_id
+        }
+        client {
+            client()
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+        }
+        data {
+            data()
+            programArguments.addAll '--mod', mod_id, '--all',
+                    '--output', rootProject.file('common/src/generated/resources').absolutePath,
+                    '--existing', rootProject.file('common/src/main/resources').absolutePath,
+                    '--existing-mod', 'better_weaponry'
+            // Sources des traductions lues par le fournisseur de langues (un fichier par langue).
+            systemProperty 'extendedweaponry.langSources', rootProject.file('common/src/main/lang').absolutePath
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+ext.gameTestAnnotations = '@net.neoforged.neoforge.gametest.GameTestHolder(ExtendedWeaponry.MODID)\n@net.neoforged.neoforge.gametest.PrefixGameTestTemplate(false)'
+ext.gameTestArena = 'empty'
+
+dependencies {
+    compileOnly files(betterWeaponryJar)
+}
+
+// Better Weaponry est un vrai mod : il est copié dans le dossier "mods" de chaque lancement (jeu, serveur, tests, datagen).
+tasks.matching { it.name in ['runClient', 'runServer', 'runGameTestServer', 'runData'] }.configureEach { task ->
+    def runName = task.name.substring(3, 4).toLowerCase() + task.name.substring(4)
+    doFirst {
+        def mods = rootProject.file("run/${runName}/mods")
+        project.delete(fileTree(mods) { include 'better_weaponry-*.jar' })
+        project.copy { from betterWeaponryJar; into mods }
+    }
+}

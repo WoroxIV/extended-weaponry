@@ -1,0 +1,153 @@
+{
+  "_info": "Translation source for Extended Weaponry. Item names are built with 'pattern': {type} and {material} are replaced by the names below ({type|lower} = first letter in lower case). The 17 Better Weaponry weapon types use the same names as in Better Weaponry. Other texts are in 'strings', with exactly the same keys as en_us.",
+  "names": {
+    "pattern": "{type} {material}",
+    "types": {
+      "broadsword": {
+        "name": "Палаш",
+        "gender": "m"
+      },
+      "spear": {
+        "name": "Копьё",
+        "gender": "n"
+      },
+      "dagger": {
+        "name": "Кинжал",
+        "gender": "m"
+      },
+      "scythe": {
+        "name": "Коса",
+        "gender": "f"
+      },
+      "rapier": {
+        "name": "Рапира",
+        "gender": "f"
+      },
+      "sickle": {
+        "name": "Серп",
+        "gender": "m"
+      },
+      "katana": {
+        "name": "Катана",
+        "gender": "f"
+      },
+      "battleaxe": {
+        "name": "Боевой топор",
+        "gender": "m"
+      },
+      "glaive": {
+        "name": "Глефа",
+        "gender": "f"
+      },
+      "hammer": {
+        "name": "Молот",
+        "gender": "m"
+      },
+      "claymore": {
+        "name": "Клеймор",
+        "gender": "m"
+      },
+      "chakram": {
+        "name": "Чакрам",
+        "gender": "m"
+      },
+      "sai": {
+        "name": "Сай",
+        "gender": "m"
+      },
+      "shield": {
+        "name": "Щит",
+        "gender": "m"
+      },
+      "bow": {
+        "name": "Лук",
+        "gender": "m"
+      },
+      "crossbow": {
+        "name": "Арбалет",
+        "gender": "m"
+      },
+      "shuriken": {
+        "name": "Сюрикен",
+        "gender": "m"
+      },
+      "sword": {
+        "name": "Меч",
+        "gender": "m"
+      },
+      "shovel": {
+        "name": "Лопата",
+        "gender": "f"
+      },
+      "pickaxe": {
+        "name": "Кирка",
+        "gender": "f"
+      },
+      "axe": {
+        "name": "Топор",
+        "gender": "m"
+      },
+      "hoe": {
+        "name": "Мотыга",
+        "gender": "f"
+      },
+      "helmet": {
+        "name": "Шлем",
+        "gender": "m"
+      },
+      "chestplate": {
+        "name": "Нагрудник",
+        "gender": "m"
+      },
+      "leggings": {
+        "name": "Поножи",
+        "gender": "p"
+      },
+      "boots": {
+        "name": "Ботинки",
+        "gender": "p"
+      }
+    },
+    "materials": {
+      "copper": {
+        "pattern": "{material} {type|lower}",
+        "m": "Медный",
+        "f": "Медная",
+        "n": "Медное",
+        "p": "Медные"
+      },
+      "emerald": {
+        "pattern": "{material} {type|lower}",
+        "m": "Изумрудный",
+        "f": "Изумрудная",
+        "n": "Изумрудное",
+        "p": "Изумрудные"
+      },
+      "amethyst": {
+        "pattern": "{material} {type|lower}",
+        "m": "Аметистовый",
+        "f": "Аметистовая",
+        "n": "Аметистовое",
+        "p": "Аметистовые"
+      },
+      "warden": "хранителя"
+    },
+    "overrides": {}
+  },
+  "strings": {
+    "itemGroup.extended_weaponry.gear": "Extended Weaponry",
+    "item.extended_weaponry.warden_heart": "Сердце хранителя",
+    "item.extended_weaponry.warden_upgrade_smithing_template": "Кузнечный шаблон",
+    "item.extended_weaponry.smithing_template.warden_upgrade.title": "Улучшение хранителя",
+    "item.extended_weaponry.smithing_template.warden_upgrade.applies_to": "Незеритовое снаряжение",
+    "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Сердце хранителя",
+    "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Положите незеритовую броню, оружие или инструмент",
+    "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Положите сердце хранителя",
+    "tooltip.extended_weaponry.fragile": "Хрупкость: прочность и починка не действуют",
+    "tooltip.extended_weaponry.resonance": "Резонанс: удары задевают и ближайших врагов",
+    "tooltip.extended_weaponry.sonic": "Звуковой удар: пробивает броню, удары без вибраций",
+    "tooltip.extended_weaponry.warden_heart": "Выпадает из хранителя, если большую часть урона нанесли игроки",
+    "death.attack.extended_weaponry.resonance": "%1$s разбит резонансом",
+    "death.attack.extended_weaponry.resonance.player": "%1$s разбит резонансом оружия игрока %2$s"
+  }
+}

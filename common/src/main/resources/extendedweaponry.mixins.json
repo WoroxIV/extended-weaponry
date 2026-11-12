@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.extendedweaponry.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CombatTrackerMixin",
+    "EnchantmentHelperMixin",
+    "EnchantmentMixin",
+    "EntityMixin",
+    "ExperienceOrbMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "VindicatorMixin",
+    "WardenMixin",
+    "ZombieMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_info": "Translation source for Extended Weaponry. Item names are built with 'pattern': {type} and {material} are replaced by the names below ({type|lower} = first letter in lower case). The 17 Better Weaponry weapon types use the same names as in Better Weaponry. Other texts are in 'strings', with exactly the same keys as en_us.",
+  "names": {
+    "pattern": "{material} {type}",
+    "types": {
+      "broadsword": "Broadsword",
+      "spear": "Spear",
+      "dagger": "Dagger",
+      "scythe": "Scythe",
+      "rapier": "Rapier",
+      "sickle": "Sickle",
+      "katana": "Katana",
+      "battleaxe": "Battleaxe",
+      "glaive": "Glaive",
+      "hammer": "Hammer",
+      "claymore": "Claymore",
+      "chakram": "Chakram",
+      "sai": "Sai",
+      "shield": "Shield",
+      "bow": "Bow",
+      "crossbow": "Crossbow",
+      "shuriken": "Shuriken",
+      "sword": "Sword",
+      "shovel": "Shovel",
+      "pickaxe": "Pickaxe",
+      "axe": "Axe",
+      "hoe": "Hoe",
+      "helmet": "Helmet",
+      "chestplate": "Chestplate",
+      "leggings": "Leggings",
+      "boots": "Boots"
+    },
+    "materials": {
+      "copper": "Copper",
+      "emerald": "Emerald",
+      "amethyst": "Amethyst",
+      "warden": "Warden"
+    },
+    "overrides": {}
+  },
+  "strings": {
+    "itemGroup.extended_weaponry.gear": "Extended Weaponry",
+    "item.extended_weaponry.warden_heart": "Warden Heart",
+    "item.extended_weaponry.warden_upgrade_smithing_template": "Smithing Template",
+    "item.extended_weaponry.smithing_template.warden_upgrade.title": "Warden Upgrade",
+    "item.extended_weaponry.smithing_template.warden_upgrade.applies_to": "Netherite Equipment",
+    "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Warden Heart",
+    "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+    "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Add Warden Heart",
+    "tooltip.extended_weaponry.fragile": "Fragile: Unbreaking and Mending have no effect",
+    "tooltip.extended_weaponry.resonance": "Resonance: hits also strike nearby enemies",
+    "tooltip.extended_weaponry.sonic": "Sonic Strike: pierces armor, hits make no vibration",
+    "tooltip.extended_weaponry.warden_heart": "Dropped by a Warden when players dealt most of its damage",
+    "death.attack.extended_weaponry.resonance": "%1$s was shattered by resonance",
+    "death.attack.extended_weaponry.resonance.player": "%1$s was shattered by the resonance of %2$s's weapon"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_info": "Translation source for Extended Weaponry. Item names are built with 'pattern': {type} and {material} are replaced by the names below ({type|lower} = first letter in lower case). The 17 Better Weaponry weapon types use the same names as in Better Weaponry. Other texts are in 'strings', with exactly the same keys as en_us.",
+  "names": {
+    "pattern": "{material}{type}",
+    "types": {
+      "broadsword": "阔剑",
+      "spear": "矛",
+      "dagger": "匕首",
+      "scythe": "大镰刀",
+      "rapier": "刺剑",
+      "sickle": "镰刀",
+      "katana": "武士刀",
+      "battleaxe": "战斧",
+      "glaive": "偃月刀",
+      "hammer": "战锤",
+      "claymore": "双手大剑",
+      "chakram": "战轮",
+      "sai": "三叉刺",
+      "shield": "盾牌",
+      "bow": "弓",
+      "crossbow": "弩",
+      "shuriken": "手里剑",
+      "sword": "剑",
+      "shovel": "锹",
+      "pickaxe": "镐",
+      "axe": "斧",
+      "hoe": "锄",
+      "helmet": "头盔",
+      "chestplate": "胸甲",
+      "leggings": "护腿",
+      "boots": "靴子"
+    },
+    "materials": {
+      "copper": "铜",
+      "emerald": "绿宝石",
+      "amethyst": "紫水晶",
+      "warden": "监守者"
+    },
+    "overrides": {}
+  },
+  "strings": {
+    "itemGroup.extended_weaponry.gear": "Extended Weaponry",
+    "item.extended_weaponry.warden_heart": "监守者之心",
+    "item.extended_weaponry.warden_upgrade_smithing_template": "锻造模板",
+    "item.extended_weaponry.smithing_template.warden_upgrade.title": "监守者升级",
+    "item.extended_weaponry.smithing_template.warden_upgrade.applies_to": "下界合金装备",
+    "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "监守者之心",
+    "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "放入下界合金盔甲、武器或工具",
+    "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "放入监守者之心",
+    "tooltip.extended_weaponry.fragile": "易碎：耐久和经验修补无效",
+    "tooltip.extended_weaponry.resonance": "共鸣：攻击也会波及附近的敌人",
+    "tooltip.extended_weaponry.sonic": "音波打击：穿透护甲，攻击不产生振动",
+    "tooltip.extended_weaponry.warden_heart": "玩家造成大部分伤害时由监守者掉落",
+    "death.attack.extended_weaponry.resonance": "%1$s被共鸣震碎了",
+    "death.attack.extended_weaponry.resonance.player": "%1$s被%2$s的武器共鸣震碎了"
+  }
+}
