@@ -33,7 +33,7 @@ publishMods {
         client = true
         server = true
         // Slugs CurseForge à vérifier à la création du projet.
-        requires('better-weaponry')
+        requires('better-weaponry-mod')
         if (isFabric) requires('fabric-api')
     }
 }
