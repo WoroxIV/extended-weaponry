@@ -143,11 +143,8 @@
     "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Сердце хранителя",
     "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Положите незеритовую броню, оружие или инструмент",
     "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Положите сердце хранителя",
-    "tooltip.extended_weaponry.fragile": "Хрупкость: прочность и починка не действуют",
-    "tooltip.extended_weaponry.resonance": "Резонанс: удары задевают и ближайших врагов",
-    "tooltip.extended_weaponry.sonic": "Звуковой удар: пробивает броню, удары без вибраций",
-    "tooltip.extended_weaponry.warden_heart": "Выпадает из хранителя, если большую часть урона нанесли игроки",
-    "death.attack.extended_weaponry.resonance": "%1$s разбит резонансом",
-    "death.attack.extended_weaponry.resonance.player": "%1$s разбит резонансом оружия игрока %2$s"
+    "tooltip.extended_weaponry.fragile": "Хрупкость",
+    "tooltip.extended_weaponry.sonic": "Пробивает броню",
+    "tooltip.extended_weaponry.warden_heart": "Выпадает из хранителя, если большую часть урона нанесли игроки"
   }
 }

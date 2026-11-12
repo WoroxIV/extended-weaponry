@@ -18,9 +18,10 @@ public final class ExtTooltips {
     }
 
     public static void addLines(ItemStack stack, List<Component> lines) {
-        if (stack.is(ExtTags.FRAGILE)) lines.add(line("fragile", ChatFormatting.RED));
-        if (stack.is(ExtTags.RESONANT)) lines.add(line("resonance", ChatFormatting.LIGHT_PURPLE));
-        if (stack.is(ExtTags.SONIC)) lines.add(line("sonic", ChatFormatting.DARK_AQUA));
+        // Juste sous le nom de l'objet, avant les statistiques.
+        int under = Math.min(1, lines.size());
+        if (stack.is(ExtTags.FRAGILE)) lines.add(under++, line("fragile", ChatFormatting.LIGHT_PURPLE));
+        if (stack.is(ExtTags.SONIC)) lines.add(under, line("sonic", ChatFormatting.DARK_AQUA));
         if (stack.is(ExtItems.WARDEN_HEART.get())) lines.add(line("warden_heart", ChatFormatting.GRAY));
     }
 

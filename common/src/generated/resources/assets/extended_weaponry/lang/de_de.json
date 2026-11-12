@@ -1,6 +1,4 @@
 {
-  "death.attack.extended_weaponry.resonance": "%1$s wurde von Resonanz zerschmettert",
-  "death.attack.extended_weaponry.resonance.player": "%1$s wurde von der Resonanz der Waffe von %2$s zerschmettert",
   "item.extended_weaponry.amethyst_axe": "Amethystaxt",
   "item.extended_weaponry.amethyst_battleaxe": "Amethyststreitaxt",
   "item.extended_weaponry.amethyst_boots": "Amethyststiefel",
@@ -113,8 +111,7 @@
   "item.extended_weaponry.warden_sword": "Wärterschwert",
   "item.extended_weaponry.warden_upgrade_smithing_template": "Schmiedevorlage",
   "itemGroup.extended_weaponry.gear": "Extended Weaponry",
-  "tooltip.extended_weaponry.fragile": "Zerbrechlich: Haltbarkeit und Reparatur wirken nicht",
-  "tooltip.extended_weaponry.resonance": "Resonanz: Treffer erfassen auch nahe Gegner",
-  "tooltip.extended_weaponry.sonic": "Schallschlag: durchdringt Rüstung, Treffer ohne Vibration",
+  "tooltip.extended_weaponry.fragile": "Zerbrechlich",
+  "tooltip.extended_weaponry.sonic": "Durchdringt Rüstung",
   "tooltip.extended_weaponry.warden_heart": "Fällt, wenn Spieler einem Wärter den Großteil seines Schadens zugefügt haben"
 }

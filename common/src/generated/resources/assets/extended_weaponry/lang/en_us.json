@@ -1,6 +1,4 @@
 {
-  "death.attack.extended_weaponry.resonance": "%1$s was shattered by resonance",
-  "death.attack.extended_weaponry.resonance.player": "%1$s was shattered by the resonance of %2$s's weapon",
   "item.extended_weaponry.amethyst_axe": "Amethyst Axe",
   "item.extended_weaponry.amethyst_battleaxe": "Amethyst Battleaxe",
   "item.extended_weaponry.amethyst_boots": "Amethyst Boots",
@@ -113,8 +111,7 @@
   "item.extended_weaponry.warden_sword": "Warden Sword",
   "item.extended_weaponry.warden_upgrade_smithing_template": "Smithing Template",
   "itemGroup.extended_weaponry.gear": "Extended Weaponry",
-  "tooltip.extended_weaponry.fragile": "Fragile: Unbreaking and Mending have no effect",
-  "tooltip.extended_weaponry.resonance": "Resonance: hits also strike nearby enemies",
-  "tooltip.extended_weaponry.sonic": "Sonic Strike: pierces armor, hits make no vibration",
+  "tooltip.extended_weaponry.fragile": "Fragile",
+  "tooltip.extended_weaponry.sonic": "Pierces Armor",
   "tooltip.extended_weaponry.warden_heart": "Dropped by a Warden when players dealt most of its damage"
 }

@@ -89,16 +89,13 @@ public class ExtItemTagsProvider extends ItemTagsProvider {
     /** Effets propres aux matériaux, et objets de chaque matériau pour le butin des coffres. */
     private void addMaterialTags() {
         var fragile = tag(ExtTags.FRAGILE);
-        var resonant = tag(ExtTags.RESONANT);
         var sonic = tag(ExtTags.SONIC);
         for (Piece piece : Piece.values()) fragile.add(ExtItems.get(ExtendedTiers.AMETHYST, piece));
         for (Item item : allBetterWeaponry(ExtendedMaterials.AMETHYST)) fragile.add(item);
         for (Piece piece : List.of(Piece.SWORD, Piece.AXE)) {
-            resonant.add(ExtItems.get(ExtendedTiers.AMETHYST, piece));
             sonic.add(ExtItems.get(ExtendedTiers.WARDEN, piece));
         }
         for (WeaponType type : WeaponType.values()) {
-            resonant.add(ModItems.get(type, ExtendedMaterials.AMETHYST).get());
             sonic.add(ModItems.get(type, ExtendedMaterials.WARDEN).get());
         }
         sonic.add(ModItems.bow(ExtendedMaterials.WARDEN).get(), ModItems.crossbow(ExtendedMaterials.WARDEN).get(), ModItems.shuriken(ExtendedMaterials.WARDEN).get());

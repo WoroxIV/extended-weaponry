@@ -11,8 +11,6 @@ import net.minecraft.world.level.block.Block;
 public final class ExtTags {
     /** Objets en améthyste : Solidité et Raccommodage sans effet, jamais incassables, rendent des éclats en cassant. */
     public static final TagKey<Item> FRAGILE = item("fragile");
-    /** Armes de mêlée en améthyste : leurs coups font résonner les ennemis proches. */
-    public static final TagKey<Item> RESONANT = item("resonant_weapons");
     /** Armes du Warden : une partie des dégâts traverse l'armure, et les coups ne déclenchent pas les capteurs de sculk. */
     public static final TagKey<Item> SONIC = item("sonic_weapons");
     /** Objets qui réparent l'équipement du Warden à l'enclume. */

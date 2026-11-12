@@ -10,8 +10,8 @@ displayName="${mod_name}"
 authors="${mod_authors}"
 displayURL="${mod_display_url}"
 logoFile="logo.png"
-logoBlur=false
-description='''${mod_description}'''
+logoBlur=true
+description="""${mod_description}"""
 
 # Better Weaponry crée les armes de ces matériaux (voir com.betterweaponry.api.WeaponMaterialProvider).
 [modproperties.${mod_id}]

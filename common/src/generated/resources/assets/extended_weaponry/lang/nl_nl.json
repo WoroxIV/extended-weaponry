@@ -1,6 +1,4 @@
 {
-  "death.attack.extended_weaponry.resonance": "%1$s werd verbrijzeld door resonantie",
-  "death.attack.extended_weaponry.resonance.player": "%1$s werd verbrijzeld door de resonantie van het wapen van %2$s",
   "item.extended_weaponry.amethyst_axe": "Amethisten bijl",
   "item.extended_weaponry.amethyst_battleaxe": "Amethisten strijdbijl",
   "item.extended_weaponry.amethyst_boots": "Amethisten laarzen",
@@ -113,8 +111,7 @@
   "item.extended_weaponry.warden_sword": "Zwaard van de Hoeder",
   "item.extended_weaponry.warden_upgrade_smithing_template": "Smeedsjabloon",
   "itemGroup.extended_weaponry.gear": "Extended Weaponry",
-  "tooltip.extended_weaponry.fragile": "Breekbaar: Onbreekbaarheid en Herstel werken niet",
-  "tooltip.extended_weaponry.resonance": "Resonantie: slagen raken ook nabije vijanden",
-  "tooltip.extended_weaponry.sonic": "Sonische slag: doorboort harnassen, slagen zonder trilling",
+  "tooltip.extended_weaponry.fragile": "Breekbaar",
+  "tooltip.extended_weaponry.sonic": "Doorboort harnassen",
   "tooltip.extended_weaponry.warden_heart": "Valt van een Hoeder als spelers het grootste deel van de schade hebben aangericht"
 }

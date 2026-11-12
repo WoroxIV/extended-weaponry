@@ -19,12 +19,11 @@ Minecraft 1.21.1 (NeoForge, Fabric) and 1.20.1 (Forge, Fabric).
   - Unbreaking and Mending cannot be applied (table, anvil, loot, commands), and have no effect if the item gets them anyway.
   - The "Unbreakable" mark is removed, and the item always wears.
   - A broken amethyst item shatters and gives back one or two shards.
-  - Resonance: melee hits also deal 25% of the damage to enemies within 2.5 blocks of the target.
   - The shield, bow and crossbow have 64 durability, and the shuriken has 8.
 - **Warden** is an upgrade of netherite.
   - Recipe: netherite item + Warden upgrade smithing template + one Warden Heart. Repaired with a Warden Heart.
   - Resists fire.
-  - Sonic Strike: 35% of what armor would block still goes through.
+  - Pierces armor: 35% of what armor would block still goes through.
   - Silent hits: the hit (or killed) creature sends no vibration to sculk sensors.
 
 ## Warden Heart and template
@@ -38,7 +37,7 @@ Minecraft 1.21.1 (NeoForge, Fabric) and 1.20.1 (Forge, Fabric).
 - Zombies that spawn with an iron sword or shovel have it in copper 30% of the time. Vindicators have an emerald axe 10% of the time.
 - Worn copper, emerald or amethyst gear can be found in a few chests: trial chamber corridors (dungeons in 1.20.1), big ocean ruins, village smiths, pillager outposts and shipwreck treasure.
 - The Better Weaponry weapons in these materials are recognized by Combat Reforged (through the `better_weaponry:<type>s` tags), Better Combat and Epic Fight, like the other Better Weaponry weapons.
-- Data packs can extend the tags `extended_weaponry:fragile`, `extended_weaponry:resonant_weapons` and `extended_weaponry:sonic_weapons`.
+- Data packs can extend the tags `extended_weaponry:fragile` and `extended_weaponry:sonic_weapons`.
 - In Better Weaponry's data files, these materials are written `extended_weaponry:copper`, `extended_weaponry:emerald`, and so on.
 
 ## How it plugs into Better Weaponry

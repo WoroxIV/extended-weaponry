@@ -47,11 +47,8 @@
     "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Corazón del Warden",
     "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Coloca una armadura, arma o herramienta de netherita",
     "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Coloca un corazón del Warden",
-    "tooltip.extended_weaponry.fragile": "Frágil: Irrompibilidad y Reparación no tienen efecto",
-    "tooltip.extended_weaponry.resonance": "Resonancia: los golpes alcanzan también a los enemigos cercanos",
-    "tooltip.extended_weaponry.sonic": "Golpe sónico: atraviesa la armadura, golpes sin vibración",
-    "tooltip.extended_weaponry.warden_heart": "Lo suelta un Warden cuando los jugadores le infligieron la mayor parte del daño",
-    "death.attack.extended_weaponry.resonance": "%1$s se hizo añicos por la resonancia",
-    "death.attack.extended_weaponry.resonance.player": "%1$s se hizo añicos por la resonancia del arma de %2$s"
+    "tooltip.extended_weaponry.fragile": "Frágil",
+    "tooltip.extended_weaponry.sonic": "Atraviesa la armadura",
+    "tooltip.extended_weaponry.warden_heart": "Lo suelta un Warden cuando los jugadores le infligieron la mayor parte del daño"
   }
 }

@@ -10,7 +10,7 @@ Four materials, each with all 13 Better Weaponry weapons, a shield, a bow, a cro
 
 - **Copper**: between stone and iron, with the same stats as the copper tools and armor of Minecraft 1.21.9. Early game for versions that do not have them yet.
 - **Emerald**: a bit more durable than iron, hits between iron and diamond, and enchants very well.
-- **Amethyst**: hits harder than diamond, but breaks very fast. Unbreaking and Mending do not work on it, it can never be made unbreakable, and it shatters into shards when it breaks. Its hits *resonate* and damage nearby enemies.
+- **Amethyst**: hits harder than diamond, but breaks very fast. Unbreaking and Mending do not work on it, it can never be made unbreakable, and it shatters into shards when it breaks.
 - **Warden**: an upgrade of netherite at the smithing table, stronger than netherite. Its hits pierce part of the armor and make no vibration.
 
 ## The Warden Heart

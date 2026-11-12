@@ -1,6 +1,4 @@
 {
-  "death.attack.extended_weaponry.resonance": "%1$s разбит резонансом",
-  "death.attack.extended_weaponry.resonance.player": "%1$s разбит резонансом оружия игрока %2$s",
   "item.extended_weaponry.amethyst_axe": "Аметистовый топор",
   "item.extended_weaponry.amethyst_battleaxe": "Аметистовый боевой топор",
   "item.extended_weaponry.amethyst_boots": "Аметистовые ботинки",
@@ -113,8 +111,7 @@
   "item.extended_weaponry.warden_sword": "Меч хранителя",
   "item.extended_weaponry.warden_upgrade_smithing_template": "Кузнечный шаблон",
   "itemGroup.extended_weaponry.gear": "Extended Weaponry",
-  "tooltip.extended_weaponry.fragile": "Хрупкость: прочность и починка не действуют",
-  "tooltip.extended_weaponry.resonance": "Резонанс: удары задевают и ближайших врагов",
-  "tooltip.extended_weaponry.sonic": "Звуковой удар: пробивает броню, удары без вибраций",
+  "tooltip.extended_weaponry.fragile": "Хрупкость",
+  "tooltip.extended_weaponry.sonic": "Пробивает броню",
   "tooltip.extended_weaponry.warden_heart": "Выпадает из хранителя, если большую часть урона нанесли игроки"
 }

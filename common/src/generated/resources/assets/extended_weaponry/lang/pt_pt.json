@@ -1,6 +1,4 @@
 {
-  "death.attack.extended_weaponry.resonance": "%1$s foi despedaçado pela ressonância",
-  "death.attack.extended_weaponry.resonance.player": "%1$s foi despedaçado pela ressonância da arma de %2$s",
   "item.extended_weaponry.amethyst_axe": "Machado de Ametista",
   "item.extended_weaponry.amethyst_battleaxe": "Machado de Batalha de Ametista",
   "item.extended_weaponry.amethyst_boots": "Botas de Ametista",
@@ -113,8 +111,7 @@
   "item.extended_weaponry.warden_sword": "Espada do Vigilante",
   "item.extended_weaponry.warden_upgrade_smithing_template": "Molde de Ferraria",
   "itemGroup.extended_weaponry.gear": "Extended Weaponry",
-  "tooltip.extended_weaponry.fragile": "Frágil: Inquebrável e Reparação não têm efeito",
-  "tooltip.extended_weaponry.resonance": "Ressonância: os golpes também atingem inimigos próximos",
-  "tooltip.extended_weaponry.sonic": "Golpe Sónico: atravessa armaduras, golpes sem vibração",
+  "tooltip.extended_weaponry.fragile": "Frágil",
+  "tooltip.extended_weaponry.sonic": "Atravessa armaduras",
   "tooltip.extended_weaponry.warden_heart": "Largado por um Vigilante quando jogadores causaram a maior parte do dano"
 }

@@ -47,11 +47,8 @@
     "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Warden Heart",
     "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
     "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Add Warden Heart",
-    "tooltip.extended_weaponry.fragile": "Fragile: Unbreaking and Mending have no effect",
-    "tooltip.extended_weaponry.resonance": "Resonance: hits also strike nearby enemies",
-    "tooltip.extended_weaponry.sonic": "Sonic Strike: pierces armor, hits make no vibration",
-    "tooltip.extended_weaponry.warden_heart": "Dropped by a Warden when players dealt most of its damage",
-    "death.attack.extended_weaponry.resonance": "%1$s was shattered by resonance",
-    "death.attack.extended_weaponry.resonance.player": "%1$s was shattered by the resonance of %2$s's weapon"
+    "tooltip.extended_weaponry.fragile": "Fragile",
+    "tooltip.extended_weaponry.sonic": "Pierces Armor",
+    "tooltip.extended_weaponry.warden_heart": "Dropped by a Warden when players dealt most of its damage"
   }
 }

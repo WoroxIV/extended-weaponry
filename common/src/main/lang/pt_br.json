@@ -125,11 +125,8 @@
     "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Coração do Defensor",
     "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Adicione uma armadura, arma ou ferramenta de netherita",
     "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Adicione um coração do Defensor",
-    "tooltip.extended_weaponry.fragile": "Frágil: Inquebrável e Remendo não têm efeito",
-    "tooltip.extended_weaponry.resonance": "Ressonância: os golpes também atingem inimigos próximos",
-    "tooltip.extended_weaponry.sonic": "Golpe Sônico: atravessa armaduras, golpes sem vibração",
-    "tooltip.extended_weaponry.warden_heart": "Derrubado por um Defensor quando jogadores causaram a maior parte do dano",
-    "death.attack.extended_weaponry.resonance": "%1$s foi despedaçado pela ressonância",
-    "death.attack.extended_weaponry.resonance.player": "%1$s foi despedaçado pela ressonância da arma de %2$s"
+    "tooltip.extended_weaponry.fragile": "Frágil",
+    "tooltip.extended_weaponry.sonic": "Atravessa armaduras",
+    "tooltip.extended_weaponry.warden_heart": "Derrubado por um Defensor quando jogadores causaram a maior parte do dano"
   }
 }

@@ -1,6 +1,4 @@
 {
-  "death.attack.extended_weaponry.resonance": "%1$s è andato in frantumi per la risonanza",
-  "death.attack.extended_weaponry.resonance.player": "%1$s è andato in frantumi per la risonanza dell'arma di %2$s",
   "item.extended_weaponry.amethyst_axe": "Ascia d'ametista",
   "item.extended_weaponry.amethyst_battleaxe": "Ascia da battaglia d'ametista",
   "item.extended_weaponry.amethyst_boots": "Stivali d'ametista",
@@ -113,8 +111,7 @@
   "item.extended_weaponry.warden_sword": "Spada del Sorvegliante",
   "item.extended_weaponry.warden_upgrade_smithing_template": "Modello di forgiatura",
   "itemGroup.extended_weaponry.gear": "Extended Weaponry",
-  "tooltip.extended_weaponry.fragile": "Fragile: Indistruttibilità e Riparazione non hanno effetto",
-  "tooltip.extended_weaponry.resonance": "Risonanza: i colpi colpiscono anche i nemici vicini",
-  "tooltip.extended_weaponry.sonic": "Colpo sonico: perfora l'armatura, colpi senza vibrazioni",
+  "tooltip.extended_weaponry.fragile": "Fragile",
+  "tooltip.extended_weaponry.sonic": "Perfora l'armatura",
   "tooltip.extended_weaponry.warden_heart": "Rilasciato da un Sorvegliante quando i giocatori gli hanno inflitto la maggior parte dei danni"
 }
