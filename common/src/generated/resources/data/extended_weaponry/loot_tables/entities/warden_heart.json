@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "extended_weaponry:warden_gear_enabled"
+        },
+        {
+          "condition": "extended_weaponry:player_damage_share",
+          "min_share": 0.6
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "extended_weaponry:warden_heart"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "extended_weaponry:entities/warden_heart"
+}

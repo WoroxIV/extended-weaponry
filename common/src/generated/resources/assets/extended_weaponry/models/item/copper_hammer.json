@@ -1,0 +1,6 @@
+{
+  "parent": "better_weaponry:item/hammer_base",
+  "textures": {
+    "layer0": "extended_weaponry:item/copper_hammer"
+  }
+}

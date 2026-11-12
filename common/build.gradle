@@ -1,0 +1,42 @@
+plugins {
+    id 'multiloader-common'
+    id 'net.neoforged.moddev.legacyforge'
+}
+
+legacyForge {
+    mcpVersion = minecraft_version
+    parchment {
+        minecraftVersion = parchment_minecraft
+        mappingsVersion = parchment_version
+    }
+}
+
+sourceSets.main.resources {
+    // Fichiers convertis depuis le projet 1.21.1 par tools/convert_data_1_20.py (modèles, traductions, tags, recettes...).
+    srcDir 'src/generated/resources'
+    exclude '.cache/**'
+}
+
+tasks.named('processResources', ProcessResources) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+dependencies {
+    compileOnly 'org.spongepowered:mixin:0.8.5'
+    compileOnly 'org.ow2.asm:asm:9.7'
+    compileOnly "io.github.llamalad7:mixinextras-common:${mixinextras_version}"
+    // Better Weaponry : jar Forge aux noms de développement (Mojang), comme ici.
+    compileOnly files(rootProject.ext.betterWeaponryJar('forge'))
+}
+
+// Ce que les chargeurs récupèrent : les sources Java et les ressources, compilées et empaquetées chez eux.
+configurations {
+    commonJava { canBeResolved = false; canBeConsumed = true }
+    commonResources { canBeResolved = false; canBeConsumed = true }
+}
+
+artifacts {
+    commonJava sourceSets.main.java.sourceDirectories.singleFile
+    commonResources file('src/main/resources')
+    commonResources file('src/generated/resources')
+}

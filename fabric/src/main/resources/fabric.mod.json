@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": ["${mod_authors}"],
+  "contact": {
+    "homepage": "${mod_display_url}",
+    "issues": "${mod_issue_tracker_url}"
+  },
+  "license": "${mod_license}",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": ["com.extendedweaponry.gametest.ExtendedGameTests"],
+    "main": ["com.extendedweaponry.fabric.ExtendedWeaponryFabric"],
+    "client": ["com.extendedweaponry.fabric.ExtendedWeaponryFabricClient"],
+    "better_weaponry_materials": ["com.extendedweaponry.item.ExtendedMaterials"]
+  },
+  "mixins": [
+    "extendedweaponry.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "minecraft": "${minecraft_version}",
+    "java": ">=17",
+    "fabric-api": "*",
+    "better_weaponry": ">=${better_weaponry_version}"
+  }
+}

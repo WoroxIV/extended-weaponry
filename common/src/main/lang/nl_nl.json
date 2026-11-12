@@ -1,0 +1,138 @@
+{
+  "_info": "Translation source for Extended Weaponry. Item names are built with 'pattern': {type} and {material} are replaced by the names below ({type|lower} = first letter in lower case). The 17 Better Weaponry weapon types use the same names as in Better Weaponry. Other texts are in 'strings', with exactly the same keys as en_us.",
+  "names": {
+    "pattern": "{material} {type|lower}",
+    "types": {
+      "broadsword": {
+        "name": "Breedzwaard",
+        "gender": "het"
+      },
+      "spear": {
+        "name": "Speer",
+        "gender": "de"
+      },
+      "dagger": {
+        "name": "Dolk",
+        "gender": "de"
+      },
+      "scythe": {
+        "name": "Zeis",
+        "gender": "de"
+      },
+      "rapier": {
+        "name": "Rapier",
+        "gender": "het"
+      },
+      "sickle": {
+        "name": "Sikkel",
+        "gender": "de"
+      },
+      "katana": {
+        "name": "Katana",
+        "gender": "de"
+      },
+      "battleaxe": {
+        "name": "Strijdbijl",
+        "gender": "de"
+      },
+      "glaive": {
+        "name": "Glaive",
+        "gender": "de"
+      },
+      "hammer": {
+        "name": "Strijdhamer",
+        "gender": "de"
+      },
+      "claymore": {
+        "name": "Claymore",
+        "gender": "de"
+      },
+      "chakram": {
+        "name": "Chakram",
+        "gender": "de"
+      },
+      "sai": {
+        "name": "Sai",
+        "gender": "de"
+      },
+      "shield": {
+        "name": "Schild",
+        "gender": "het"
+      },
+      "bow": {
+        "name": "Boog",
+        "gender": "de"
+      },
+      "crossbow": {
+        "name": "Kruisboog",
+        "gender": "de"
+      },
+      "shuriken": {
+        "name": "Shuriken",
+        "gender": "de"
+      },
+      "sword": {
+        "name": "Zwaard",
+        "gender": "het"
+      },
+      "shovel": {
+        "name": "Schep",
+        "gender": "de"
+      },
+      "pickaxe": {
+        "name": "Houweel",
+        "gender": "het"
+      },
+      "axe": {
+        "name": "Bijl",
+        "gender": "de"
+      },
+      "hoe": {
+        "name": "Schoffel",
+        "gender": "de"
+      },
+      "helmet": {
+        "name": "Helm",
+        "gender": "de"
+      },
+      "chestplate": {
+        "name": "Kuras",
+        "gender": "het"
+      },
+      "leggings": {
+        "name": "Beenstukken",
+        "gender": "de"
+      },
+      "boots": {
+        "name": "Laarzen",
+        "gender": "de"
+      }
+    },
+    "materials": {
+      "copper": "Koperen",
+      "emerald": "Smaragden",
+      "amethyst": "Amethisten",
+      "warden": {
+        "pattern": "{type} van {material}",
+        "name": "de Hoeder"
+      }
+    },
+    "overrides": {}
+  },
+  "strings": {
+    "itemGroup.extended_weaponry.gear": "Extended Weaponry",
+    "item.extended_weaponry.warden_heart": "Hart van de Hoeder",
+    "item.extended_weaponry.warden_upgrade_smithing_template": "Smeedsjabloon",
+    "item.extended_weaponry.smithing_template.warden_upgrade.title": "Hoeder-upgrade",
+    "item.extended_weaponry.smithing_template.warden_upgrade.applies_to": "Netherietuitrusting",
+    "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Hart van de Hoeder",
+    "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Voeg netherieten harnas, wapen of gereedschap toe",
+    "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Voeg een hart van de Hoeder toe",
+    "tooltip.extended_weaponry.fragile": "Breekbaar: Onbreekbaarheid en Herstel werken niet",
+    "tooltip.extended_weaponry.resonance": "Resonantie: slagen raken ook nabije vijanden",
+    "tooltip.extended_weaponry.sonic": "Sonische slag: doorboort harnassen, slagen zonder trilling",
+    "tooltip.extended_weaponry.warden_heart": "Valt van een Hoeder als spelers het grootste deel van de schade hebben aangericht",
+    "death.attack.extended_weaponry.resonance": "%1$s werd verbrijzeld door resonantie",
+    "death.attack.extended_weaponry.resonance.player": "%1$s werd verbrijzeld door de resonantie van het wapen van %2$s"
+  }
+}

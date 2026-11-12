@@ -1,0 +1,39 @@
+// Publie le jar de ce chargeur sur Modrinth et CurseForge : gradlew publishMods
+// Simulation sans envoi : -PpublishDryRun=true. Version bêta : -PpublishType=beta.
+// Les tokens modrinthToken et curseforgeToken sont dans ~/.gradle/gradle.properties, jamais dans le dépôt.
+def isFabric = project.name == 'fabric'
+def loaderName = [fabric: 'Fabric', forge: 'Forge', neoforge: 'NeoForge'][project.name]
+def gameVersion = project.minecraft_version
+def javaVersion = JavaVersion.toVersion(project.java_version)
+
+publishMods {
+    // Le jar à envoyer est celui que le chargeur peut lancer chez les joueurs : le code y est renommé sur Fabric et Forge.
+    file = tasks.named([fabric: 'remapJar', forge: 'reobfJar', neoforge: 'jar'][project.name]).flatMap { it.archiveFile }
+    version = project.version.toString()
+    displayName = "${project.mod_name} ${project.mod_version} (${loaderName} ${gameVersion})".toString()
+    changelog = providers.fileContents(rootProject.layout.projectDirectory.file('CHANGELOG.md')).asText
+    type = project.findProperty('publishType') == 'beta' ? BETA : STABLE
+    modLoaders.add(project.name)
+    dryRun = providers.gradleProperty('publishDryRun').map { it.toBoolean() }.orElse(false)
+
+    modrinth {
+        accessToken = providers.gradleProperty('modrinthToken')
+        projectId = project.modrinth_project_id
+        minecraftVersions.add(gameVersion)
+        requires('better-weaponry')
+        if (isFabric) requires('fabric-api')
+        optional('combat-reforged-mod')
+    }
+
+    curseforge {
+        accessToken = providers.gradleProperty('curseforgeToken')
+        projectId = project.curseforge_project_id
+        minecraftVersions.add(gameVersion)
+        javaVersions.add(javaVersion)
+        client = true
+        server = true
+        // Slugs CurseForge à vérifier à la création du projet.
+        requires('better-weaponry')
+        if (isFabric) requires('fabric-api')
+    }
+}

@@ -1,0 +1,135 @@
+{
+  "_info": "Translation source for Extended Weaponry. Item names are built with 'pattern': {type} and {material} are replaced by the names below ({type|lower} = first letter in lower case). The 17 Better Weaponry weapon types use the same names as in Better Weaponry. Other texts are in 'strings', with exactly the same keys as en_us.",
+  "names": {
+    "pattern": "{type} {material}",
+    "types": {
+      "broadsword": {
+        "name": "Espada Larga",
+        "gender": "f"
+      },
+      "spear": {
+        "name": "Lança",
+        "gender": "f"
+      },
+      "dagger": {
+        "name": "Adaga",
+        "gender": "f"
+      },
+      "scythe": {
+        "name": "Foice",
+        "gender": "f"
+      },
+      "rapier": {
+        "name": "Rapieira",
+        "gender": "f"
+      },
+      "sickle": {
+        "name": "Foicinha",
+        "gender": "f"
+      },
+      "katana": {
+        "name": "Katana",
+        "gender": "f"
+      },
+      "battleaxe": {
+        "name": "Machado de Batalha",
+        "gender": "m"
+      },
+      "glaive": {
+        "name": "Glaive",
+        "gender": "f"
+      },
+      "hammer": {
+        "name": "Martelo de Guerra",
+        "gender": "m"
+      },
+      "claymore": {
+        "name": "Claymore",
+        "gender": "f"
+      },
+      "chakram": {
+        "name": "Chakram",
+        "gender": "m"
+      },
+      "sai": {
+        "name": "Sai",
+        "gender": "m"
+      },
+      "shield": {
+        "name": "Escudo",
+        "gender": "m"
+      },
+      "bow": {
+        "name": "Arco",
+        "gender": "m"
+      },
+      "crossbow": {
+        "name": "Besta",
+        "gender": "f"
+      },
+      "shuriken": {
+        "name": "Shuriken",
+        "gender": "m"
+      },
+      "sword": {
+        "name": "Espada",
+        "gender": "f"
+      },
+      "shovel": {
+        "name": "Pá",
+        "gender": "f"
+      },
+      "pickaxe": {
+        "name": "Picareta",
+        "gender": "f"
+      },
+      "axe": {
+        "name": "Machado",
+        "gender": "m"
+      },
+      "hoe": {
+        "name": "Enxada",
+        "gender": "f"
+      },
+      "helmet": {
+        "name": "Capacete",
+        "gender": "m"
+      },
+      "chestplate": {
+        "name": "Peitoral",
+        "gender": "m"
+      },
+      "leggings": {
+        "name": "Calças",
+        "gender": "f"
+      },
+      "boots": {
+        "name": "Botas",
+        "gender": "f"
+      }
+    },
+    "materials": {
+      "copper": "de Cobre",
+      "emerald": "de Esmeralda",
+      "amethyst": "de Ametista",
+      "warden": "do Defensor"
+    },
+    "overrides": {}
+  },
+  "strings": {
+    "itemGroup.extended_weaponry.gear": "Extended Weaponry",
+    "item.extended_weaponry.warden_heart": "Coração do Defensor",
+    "item.extended_weaponry.warden_upgrade_smithing_template": "Molde de Ferraria",
+    "item.extended_weaponry.smithing_template.warden_upgrade.title": "Melhoria do Defensor",
+    "item.extended_weaponry.smithing_template.warden_upgrade.applies_to": "Equipamento de Netherita",
+    "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Coração do Defensor",
+    "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Adicione uma armadura, arma ou ferramenta de netherita",
+    "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Adicione um coração do Defensor",
+    "tooltip.extended_weaponry.fragile": "Frágil: Inquebrável e Remendo não têm efeito",
+    "tooltip.extended_weaponry.resonance": "Ressonância: os golpes também atingem inimigos próximos",
+    "tooltip.extended_weaponry.sonic": "Golpe Sônico: atravessa armaduras, golpes sem vibração",
+    "tooltip.extended_weaponry.warden_heart": "Derrubado por um Defensor quando jogadores causaram a maior parte do dano",
+    "death.attack.extended_weaponry.resonance": "%1$s foi despedaçado pela ressonância",
+    "death.attack.extended_weaponry.resonance.player": "%1$s foi despedaçado pela ressonância da arma de %2$s"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_info": "Translation source for Extended Weaponry. Item names are built with 'pattern': {type} and {material} are replaced by the names below ({type|lower} = first letter in lower case). The 17 Better Weaponry weapon types use the same names as in Better Weaponry. Other texts are in 'strings', with exactly the same keys as en_us.",
+  "names": {
+    "pattern": "{type} {material}",
+    "types": {
+      "broadsword": "Spada larga",
+      "spear": "Lancia",
+      "dagger": "Pugnale",
+      "scythe": "Falce",
+      "rapier": "Stocco",
+      "sickle": "Falcetto",
+      "katana": "Katana",
+      "battleaxe": "Ascia da battaglia",
+      "glaive": "Falcione",
+      "hammer": "Martello da guerra",
+      "claymore": "Claymore",
+      "chakram": "Chakram",
+      "sai": "Sai",
+      "shield": "Scudo",
+      "bow": "Arco",
+      "crossbow": "Balestra",
+      "shuriken": "Shuriken",
+      "sword": "Spada",
+      "shovel": "Pala",
+      "pickaxe": "Piccone",
+      "axe": "Ascia",
+      "hoe": "Zappa",
+      "helmet": "Elmo",
+      "chestplate": "Corazza",
+      "leggings": "Gambali",
+      "boots": "Stivali"
+    },
+    "materials": {
+      "copper": "di rame",
+      "emerald": "di smeraldo",
+      "amethyst": "d'ametista",
+      "warden": "del Sorvegliante"
+    },
+    "overrides": {}
+  },
+  "strings": {
+    "itemGroup.extended_weaponry.gear": "Extended Weaponry",
+    "item.extended_weaponry.warden_heart": "Cuore del Sorvegliante",
+    "item.extended_weaponry.warden_upgrade_smithing_template": "Modello di forgiatura",
+    "item.extended_weaponry.smithing_template.warden_upgrade.title": "Potenziamento del Sorvegliante",
+    "item.extended_weaponry.smithing_template.warden_upgrade.applies_to": "Equipaggiamento di netherite",
+    "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Cuore del Sorvegliante",
+    "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Aggiungi un'armatura, un'arma o uno strumento di netherite",
+    "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Aggiungi un cuore del Sorvegliante",
+    "tooltip.extended_weaponry.fragile": "Fragile: Indistruttibilità e Riparazione non hanno effetto",
+    "tooltip.extended_weaponry.resonance": "Risonanza: i colpi colpiscono anche i nemici vicini",
+    "tooltip.extended_weaponry.sonic": "Colpo sonico: perfora l'armatura, colpi senza vibrazioni",
+    "tooltip.extended_weaponry.warden_heart": "Rilasciato da un Sorvegliante quando i giocatori gli hanno inflitto la maggior parte dei danni",
+    "death.attack.extended_weaponry.resonance": "%1$s è andato in frantumi per la risonanza",
+    "death.attack.extended_weaponry.resonance.player": "%1$s è andato in frantumi per la risonanza dell'arma di %2$s"
+  }
+}

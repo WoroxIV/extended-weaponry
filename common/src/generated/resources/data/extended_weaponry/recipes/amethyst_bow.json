@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "extended_weaponry:ingredients/amethyst"
+    },
+    "X": {
+      "tag": "forge:string"
+    }
+  },
+  "pattern": [
+    " MX",
+    "M X",
+    " MX"
+  ],
+  "result": {
+    "item": "extended_weaponry:amethyst_bow"
+  }
+}

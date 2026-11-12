@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "deeperdarker"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "T": {
+      "item": "extended_weaponry:warden_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "#T#",
+    "#E#",
+    "###"
+  ],
+  "result": {
+    "item": "extended_weaponry:warden_upgrade_smithing_template",
+    "count": 2
+  }
+}

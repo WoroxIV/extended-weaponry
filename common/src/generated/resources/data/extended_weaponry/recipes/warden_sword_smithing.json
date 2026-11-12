@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "deeperdarker"
+      }
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "extended_weaponry:warden_heart"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "extended_weaponry:warden_sword"
+  },
+  "template": {
+    "item": "extended_weaponry:warden_upgrade_smithing_template"
+  }
+}

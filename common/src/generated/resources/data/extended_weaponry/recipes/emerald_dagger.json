@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "extended_weaponry:ingredients/emerald"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "M",
+    "S"
+  ],
+  "result": {
+    "item": "extended_weaponry:emerald_dagger"
+  }
+}

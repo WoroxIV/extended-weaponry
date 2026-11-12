@@ -1,0 +1,14 @@
+plugins {
+    id 'net.neoforged.moddev.legacyforge' version '2.0.148' apply false
+    id 'net.fabricmc.fabric-loom-remap' version '1.18.4' apply false
+    id 'me.modmuss50.mod-publish-plugin' version '2.2.1' apply false
+}
+
+// Jar de Better Weaponry construit dans le dossier voisin (gradlew build dans ce dossier d'abord).
+// Forge : le jar de "devlibs", qui garde les noms de développement ; Fabric : le jar publié, remappé par Loom.
+ext.betterWeaponryJar = { String loader ->
+    def folder = loader == 'forge' ? 'devlibs' : 'libs'
+    def jar = file("${better_weaponry_dir}/${loader}/build/${folder}/better_weaponry-${better_weaponry_version}+${minecraft_version}-${loader}.jar")
+    if (!jar.exists()) throw new GradleException("Better Weaponry jar missing: ${jar}. Run 'gradlew build' in ${better_weaponry_dir} first.")
+    return jar
+}

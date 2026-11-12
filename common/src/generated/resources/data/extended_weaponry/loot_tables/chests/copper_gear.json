@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.12,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand": true,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.8,
+                "min": 0.2
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "extended_weaponry:loot/copper_gear"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "extended_weaponry:chests/copper_gear"
+}
