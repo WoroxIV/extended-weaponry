@@ -1,6 +1,4 @@
 {
-  "death.attack.extended_weaponry.resonance": "%1$s se hizo añicos por la resonancia",
-  "death.attack.extended_weaponry.resonance.player": "%1$s se hizo añicos por la resonancia del arma de %2$s",
   "item.extended_weaponry.amethyst_axe": "Hacha de amatista",
   "item.extended_weaponry.amethyst_battleaxe": "Hacha de guerra de amatista",
   "item.extended_weaponry.amethyst_boots": "Botas de amatista",
@@ -113,8 +111,7 @@
   "item.extended_weaponry.warden_sword": "Espada del Warden",
   "item.extended_weaponry.warden_upgrade_smithing_template": "Plantilla de herrería",
   "itemGroup.extended_weaponry.gear": "Extended Weaponry",
-  "tooltip.extended_weaponry.fragile": "Frágil: Irrompibilidad y Reparación no tienen efecto",
-  "tooltip.extended_weaponry.resonance": "Resonancia: los golpes alcanzan también a los enemigos cercanos",
-  "tooltip.extended_weaponry.sonic": "Golpe sónico: atraviesa la armadura, golpes sin vibración",
+  "tooltip.extended_weaponry.fragile": "Frágil",
+  "tooltip.extended_weaponry.sonic": "Atraviesa la armadura",
   "tooltip.extended_weaponry.warden_heart": "Lo suelta un Warden cuando los jugadores le infligieron la mayor parte del daño"
 }

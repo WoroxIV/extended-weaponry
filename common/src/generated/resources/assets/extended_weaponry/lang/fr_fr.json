@@ -1,6 +1,4 @@
 {
-  "death.attack.extended_weaponry.resonance": "%1$s a volé en éclats sous la résonance",
-  "death.attack.extended_weaponry.resonance.player": "%1$s a volé en éclats sous la résonance de l'arme de %2$s",
   "item.extended_weaponry.amethyst_axe": "Hache en améthyste",
   "item.extended_weaponry.amethyst_battleaxe": "Hache de guerre en améthyste",
   "item.extended_weaponry.amethyst_boots": "Bottes en améthyste",
@@ -113,8 +111,7 @@
   "item.extended_weaponry.warden_sword": "Épée du Warden",
   "item.extended_weaponry.warden_upgrade_smithing_template": "Modèle de forge",
   "itemGroup.extended_weaponry.gear": "Extended Weaponry",
-  "tooltip.extended_weaponry.fragile": "Fragile : Solidité et Raccommodage sont sans effet",
-  "tooltip.extended_weaponry.resonance": "Résonance : les coups touchent aussi les ennemis proches",
-  "tooltip.extended_weaponry.sonic": "Frappe sonique : traverse l'armure, coups sans vibration",
+  "tooltip.extended_weaponry.fragile": "Fragile",
+  "tooltip.extended_weaponry.sonic": "Perce l'armure",
   "tooltip.extended_weaponry.warden_heart": "Lâché par un Warden quand les joueurs lui ont infligé l'essentiel de ses dégâts"
 }

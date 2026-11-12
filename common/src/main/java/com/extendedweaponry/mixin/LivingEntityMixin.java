@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-/** Effets des matériaux sur les créatures : éclats d'améthyste, Résonance, Frappe sonique et coups silencieux. */
+/** Effets des matériaux sur les créatures : éclats d'améthyste, Frappe sonique et coups silencieux. */
 @Mixin(LivingEntity.class)
 public abstract class LivingEntityMixin {
 
@@ -41,19 +41,13 @@ public abstract class LivingEntityMixin {
 
     @Inject(method = "hurt", at = @At("HEAD"))
     private void extendedweaponry$startHit(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir,
-                                           @Share("health") LocalFloatRef health, @Share("silent") LocalBooleanRef previousSilence) {
-        health.set(((LivingEntity) (Object) this).getHealth());
+                                           @Share("silent") LocalBooleanRef previousSilence) {
         previousSilence.set(MaterialEffects.startHit(source));
     }
 
-    /** Résonance, d'après la vie réellement perdue par la cible. */
     @Inject(method = "hurt", at = @At("RETURN"))
     private void extendedweaponry$endHit(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir,
-                                         @Share("health") LocalFloatRef health, @Share("silent") LocalBooleanRef previousSilence) {
+                                         @Share("silent") LocalBooleanRef previousSilence) {
         MaterialEffects.endHit(previousSilence.get());
-        LivingEntity self = (LivingEntity) (Object) this;
-        if (!self.level().isClientSide() && cir.getReturnValueZ()) {
-            MaterialEffects.resonate(self, source, health.get() - self.getHealth());
-        }
     }
 }

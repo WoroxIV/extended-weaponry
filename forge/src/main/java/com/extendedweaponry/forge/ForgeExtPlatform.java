@@ -56,6 +56,7 @@ final class ForgeExtPlatform implements ExtPlatform {
 
     @Override
     public CreativeModeTab.Builder creativeTabBuilder() {
-        return CreativeModeTab.builder().withTabsBefore(CreativeModeTabs.COMBAT);
+        // Après le dernier onglet vanilla (sinon le tri par nom le place avant Nourriture, Ingrédients et Œufs d'apparition).
+        return CreativeModeTab.builder().withTabsBefore(CreativeModeTabs.SPAWN_EGGS);
     }
 }

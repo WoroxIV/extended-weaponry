@@ -171,18 +171,6 @@ public final class ExtendedGameTests {
         helper.succeed();
     }
 
-    /** Résonance : un ennemi proche de la cible subit le quart des dégâts. */
-    @GameTest(template = ARENA)
-    public static void amethystResonates(GameTestHelper helper) {
-        Player player = helper.makeMockPlayer();
-        player.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(ModItems.get(WeaponType.KATANA, ExtendedMaterials.AMETHYST).get()));
-        Pig target = helper.spawn(EntityType.PIG, new BlockPos(2, 2, 2));
-        Pig nearby = helper.spawn(EntityType.PIG, new BlockPos(3, 2, 2));
-        target.hurt(helper.getLevel().damageSources().playerAttack(player), 8.0F);
-        helper.assertTrue(Objects.equals(nearby.getHealth(), nearby.getMaxHealth() - 2.0F), "resonance damage on the nearby pig" + ": " + nearby.getHealth());
-        helper.succeed();
-    }
-
     // --- Warden ---
 
     @GameTest(template = ARENA)

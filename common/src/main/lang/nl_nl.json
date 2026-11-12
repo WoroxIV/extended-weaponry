@@ -128,11 +128,8 @@
     "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Hart van de Hoeder",
     "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Voeg netherieten harnas, wapen of gereedschap toe",
     "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Voeg een hart van de Hoeder toe",
-    "tooltip.extended_weaponry.fragile": "Breekbaar: Onbreekbaarheid en Herstel werken niet",
-    "tooltip.extended_weaponry.resonance": "Resonantie: slagen raken ook nabije vijanden",
-    "tooltip.extended_weaponry.sonic": "Sonische slag: doorboort harnassen, slagen zonder trilling",
-    "tooltip.extended_weaponry.warden_heart": "Valt van een Hoeder als spelers het grootste deel van de schade hebben aangericht",
-    "death.attack.extended_weaponry.resonance": "%1$s werd verbrijzeld door resonantie",
-    "death.attack.extended_weaponry.resonance.player": "%1$s werd verbrijzeld door de resonantie van het wapen van %2$s"
+    "tooltip.extended_weaponry.fragile": "Breekbaar",
+    "tooltip.extended_weaponry.sonic": "Doorboort harnassen",
+    "tooltip.extended_weaponry.warden_heart": "Valt van een Hoeder als spelers het grootste deel van de schade hebben aangericht"
   }
 }

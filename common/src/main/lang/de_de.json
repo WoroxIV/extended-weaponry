@@ -125,11 +125,8 @@
     "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Wärterherz",
     "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Netheritrüstung, -waffe oder -werkzeug hinzufügen",
     "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Wärterherz hinzufügen",
-    "tooltip.extended_weaponry.fragile": "Zerbrechlich: Haltbarkeit und Reparatur wirken nicht",
-    "tooltip.extended_weaponry.resonance": "Resonanz: Treffer erfassen auch nahe Gegner",
-    "tooltip.extended_weaponry.sonic": "Schallschlag: durchdringt Rüstung, Treffer ohne Vibration",
-    "tooltip.extended_weaponry.warden_heart": "Fällt, wenn Spieler einem Wärter den Großteil seines Schadens zugefügt haben",
-    "death.attack.extended_weaponry.resonance": "%1$s wurde von Resonanz zerschmettert",
-    "death.attack.extended_weaponry.resonance.player": "%1$s wurde von der Resonanz der Waffe von %2$s zerschmettert"
+    "tooltip.extended_weaponry.fragile": "Zerbrechlich",
+    "tooltip.extended_weaponry.sonic": "Durchdringt Rüstung",
+    "tooltip.extended_weaponry.warden_heart": "Fällt, wenn Spieler einem Wärter den Großteil seines Schadens zugefügt haben"
   }
 }

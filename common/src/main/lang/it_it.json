@@ -47,11 +47,8 @@
     "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "Cuore del Sorvegliante",
     "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "Aggiungi un'armatura, un'arma o uno strumento di netherite",
     "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "Aggiungi un cuore del Sorvegliante",
-    "tooltip.extended_weaponry.fragile": "Fragile: Indistruttibilità e Riparazione non hanno effetto",
-    "tooltip.extended_weaponry.resonance": "Risonanza: i colpi colpiscono anche i nemici vicini",
-    "tooltip.extended_weaponry.sonic": "Colpo sonico: perfora l'armatura, colpi senza vibrazioni",
-    "tooltip.extended_weaponry.warden_heart": "Rilasciato da un Sorvegliante quando i giocatori gli hanno inflitto la maggior parte dei danni",
-    "death.attack.extended_weaponry.resonance": "%1$s è andato in frantumi per la risonanza",
-    "death.attack.extended_weaponry.resonance.player": "%1$s è andato in frantumi per la risonanza dell'arma di %2$s"
+    "tooltip.extended_weaponry.fragile": "Fragile",
+    "tooltip.extended_weaponry.sonic": "Perfora l'armatura",
+    "tooltip.extended_weaponry.warden_heart": "Rilasciato da un Sorvegliante quando i giocatori gli hanno inflitto la maggior parte dei danni"
   }
 }

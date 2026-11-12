@@ -47,11 +47,8 @@
     "item.extended_weaponry.smithing_template.warden_upgrade.ingredients": "监守者之心",
     "item.extended_weaponry.smithing_template.warden_upgrade.base_slot_description": "放入下界合金盔甲、武器或工具",
     "item.extended_weaponry.smithing_template.warden_upgrade.additions_slot_description": "放入监守者之心",
-    "tooltip.extended_weaponry.fragile": "易碎：耐久和经验修补无效",
-    "tooltip.extended_weaponry.resonance": "共鸣：攻击也会波及附近的敌人",
-    "tooltip.extended_weaponry.sonic": "音波打击：穿透护甲，攻击不产生振动",
-    "tooltip.extended_weaponry.warden_heart": "玩家造成大部分伤害时由监守者掉落",
-    "death.attack.extended_weaponry.resonance": "%1$s被共鸣震碎了",
-    "death.attack.extended_weaponry.resonance.player": "%1$s被%2$s的武器共鸣震碎了"
+    "tooltip.extended_weaponry.fragile": "易碎",
+    "tooltip.extended_weaponry.sonic": "穿透护甲",
+    "tooltip.extended_weaponry.warden_heart": "玩家造成大部分伤害时由监守者掉落"
   }
 }
