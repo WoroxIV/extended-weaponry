@@ -29,7 +29,7 @@ import java.util.concurrent.CompletableFuture;
  * Tags des objets du mod :
  * <ul>
  *   <li>tags vanilla des outils et armures (enchantements, garnitures, récolte des amas d'améthyste...) ;</li>
- *   <li>tags de Better Weaponry pour ses armes dans nos matériaux (c'est par eux que Combat Reforged les reconnaît) ;</li>
+ *   <li>tags de Better Weaponry pour ses armes dans nos matériaux (c'est par eux que Combat Ascended les reconnaît) ;</li>
  *   <li>tags du mod : fragile, résonance, sonique, réparation du Warden, butin ;</li>
  *   <li>tags d'ingrédients de l'amélioration du Warden, générés pour Better Weaponry.</li>
  * </ul>

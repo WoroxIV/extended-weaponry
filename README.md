@@ -36,7 +36,7 @@ Minecraft 1.21.1 (NeoForge, Fabric) and 1.20.1 (Forge, Fabric).
 
 - Zombies that spawn with an iron sword or shovel have it in copper 30% of the time. Vindicators have an emerald axe 10% of the time.
 - Worn copper, emerald or amethyst gear can be found in a few chests: trial chamber corridors (dungeons in 1.20.1), big ocean ruins, village smiths, pillager outposts and shipwreck treasure.
-- The Better Weaponry weapons in these materials are recognized by Combat Reforged (through the `better_weaponry:<type>s` tags), Better Combat and Epic Fight, like the other Better Weaponry weapons.
+- The Better Weaponry weapons in these materials are recognized by Combat Ascended (through the `better_weaponry:<type>s` tags), Better Combat and Epic Fight, like the other Better Weaponry weapons.
 - Data packs can extend the tags `extended_weaponry:fragile` and `extended_weaponry:sonic_weapons`.
 - In Better Weaponry's data files, these materials are written `extended_weaponry:copper`, `extended_weaponry:emerald`, and so on.
 
