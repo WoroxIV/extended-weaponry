@@ -2,7 +2,7 @@
 
 **Copper, emerald, amethyst and Warden versions of every Better Weaponry weapon, plus full tool and armor sets in these materials.**
 
-Requires [Better Weaponry](https://www.curseforge.com/minecraft/mc-mods/better-weaponry-mod) 3.1.0 or newer. Works with Combat Reforged, Better Combat and Epic Fight like the other Better Weaponry weapons.
+Requires [Better Weaponry](https://www.curseforge.com/minecraft/mc-mods/better-weaponry-mod) 3.1.0 or newer. Works with Combat Ascended, Better Combat and Epic Fight like the other Better Weaponry weapons.
 
 ## What it adds
 
